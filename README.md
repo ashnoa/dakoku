@@ -17,11 +17,12 @@ A CLI tool for your time management.
 ## Requirement
 
 - Go
+- SQLite3
 
 
 ## Usage
 
-First, you have to initialize your database.
+First, you have to initialize your database at current directory. It makes `db.sql` file.
 
 ```
     $ dakoku init
@@ -74,4 +75,4 @@ Stop a task.
 
 ## Licence
 
-MIT
+[MIT](https://github.com/ashnoa/dakoku/blob/master/LICENSE)
