@@ -64,7 +64,7 @@ Stop a task.
 ## Installation
 
 ```
-    $ go get https://github.com/ashnoa/dakoku
+    $ go get -u https://github.com/ashnoa/dakoku
 ```
 
 
