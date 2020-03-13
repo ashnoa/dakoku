@@ -8,7 +8,7 @@ A CLI tool for your time management.
 
 **DEMO**
 
-![Demo](https://user-images.githubusercontent.com/29384610/76630646-baf59800-6583-11ea-9212-f7b514c6bff2.gif)
+![Demo](https://user-images.githubusercontent.com/29384610/76632334-69024180-6586-11ea-9642-b70eb3fea807.gif)
 
 ## Features
 
