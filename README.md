@@ -4,7 +4,7 @@ A CLI tool for your time management.
 
 ## Description
 
-`dakoku` is a CLI tool that show your work time for each tasks. It create database to store your tasks and datas, and show it on your terminal.
+`dakoku` is a CLI tool that shows your work time for each tasks. It creates database to store your tasks and datas, and shows it on your terminal.
 
 
 ## Features
