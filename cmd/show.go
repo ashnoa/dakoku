@@ -39,7 +39,8 @@ func NewCmdShow() *cobra.Command {
 						GROUP BY task.id`
 				rows, _ = DbConnection.Query(sqlCmd)
 			} else {
-				until := time.Now().Add(time.Duration(1000000000 * 60 * 60 * 24 * o.days * -1)).Truncate(time.Hour * 24).Add(time.Duration(1000000000 * 60 * 60 * 9 * -1)).Format(time.RFC3339)
+				t := time.Now()
+				until := t.Truncate(time.Hour).Add(-time.Duration(t.Hour()) * time.Hour).Add(-time.Duration(time.Hour) * time.Duration(24*o.days)).Format(time.RFC3339)
 				sqlCmd = `SELECT task.id, task.title, task.state,
 						log.id, log.task_id, log.start, log.end, log.period, sum(log.period), log.state
 						FROM task
